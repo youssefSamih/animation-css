@@ -51,10 +51,34 @@
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 500px;
-  transition: letter-spacing .5s;
+  transition: letter-spacing .5s,left .5s;
+  overflow: hidden;
 }
 .navigation ul li a:hover:before{
   content: attr(data-text);
   opacity: 1;
+  left: 50%;
   letter-spacing: 10px;
+  width: 100vw;
+  height: 100vh;
+  top: -475px;
+  border-radius: unset;
+}
+.navigation ul li:nth-child(6n+1) a:before{
+  background: #81ecec;
+}
+.navigation ul li:nth-child(6n+2) a:before{
+  background: #ff7675;
+}
+.navigation ul li:nth-child(6n+3) a:before{
+  background: #55efc4;
+}
+.navigation ul li:nth-child(6n+4) a:before{
+  background: #a29bfe;
+}
+.navigation ul li:nth-child(6n+5) a:before{
+  background: #fd79a8;
+}
+.navigation ul li:nth-child(6n+6) a:before{
+  background: #ffeaa7;
 }
