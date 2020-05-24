@@ -1,0 +1,19 @@
+{
+  "name": "animation-css",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/youssefSamih/animation-css.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/youssefSamih/animation-css/issues"
+  },
+  "homepage": "https://github.com/youssefSamih/animation-css#readme"
+}
