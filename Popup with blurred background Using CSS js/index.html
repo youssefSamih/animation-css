@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container" id="blur">
+    <div class="content">
+      <h2>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+        Ipsum labore in ad odio ab exercitationem quis sint sequi deleniti doloribus suscipit aperiam iure.
+      </h2>
+      <img src="img.jpg" alt="">
+      <a href="#" onclick="toggle()">Read More</a>
+    </div>
+  </div>
+  <div id="popup">
+    <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h2>
+    <p>
+      Nam nesciunt itaque architecto quam ex, nisi sapiente aspernatur maiores nobis! Quam est exercitationem, vero nulla ducimus quibusdam officiis ullam dolorum! Ut?
+      Nam nesciunt itaque architecto quam ex, nisi sapiente aspernatur maiores nobis! Quam est exercitationem, vero nulla ducimus quibusdam officiis ullam dolorum! Ut?
+      Nam nesciunt itaque architecto quam ex, nisi sapiente aspernatur maiores nobis! Quam est exercitationem, vero nulla ducimus quibusdam officiis ullam dolorum! Ut?
+    </p>
+    <a href="#" onclick="toggle()">close</a>
+  </div>
+  <script>
+    function toggle(params) {
+      const blur = document.getElementById('blur');
+      blur.classList.toggle('active');
+      const popup = document.getElementById('popup');
+      popup.classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
